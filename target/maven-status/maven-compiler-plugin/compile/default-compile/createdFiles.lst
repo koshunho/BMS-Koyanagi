@@ -1,0 +1,16 @@
+com\xxx\bms\dao\impl\UserDAO.class
+com\xxx\bms\ui\ListUI$1.class
+com\xxx\bms\dao\impl\BookDAO.class
+com\xxx\bms\model\WithID.class
+com\xxx\bms\ui\LoginUI.class
+com\xxx\bms\model\Book.class
+com\xxx\bms\service\impl\UserServiceImpl.class
+com\xxx\bms\ui\ListUI.class
+com\xxx\bms\service\BookService.class
+com\xxx\bms\ui\EditUI.class
+com\xxx\bms\service\UserService.class
+com\xxx\bms\ui\AddUI.class
+com\xxx\bms\model\User.class
+com\xxx\bms\service\impl\BookServiceImpl.class
+com\xxx\bms\Main.class
+com\xxx\bms\dao\DAO.class

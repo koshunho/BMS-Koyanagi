@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="256ed91b-9b6d-4c43-8219-ba04627daf2e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="159.0" y="304.0">com</node>
+                <node x="0.0" y="152.0">netscape</node>
+                <node x="0.0" y="228.0">oracle</node>
+                <node x="153.0" y="380.0">org</node>
+                <node x="182.0" y="152.0">classes</node>
+                <node x="314.0" y="304.0">bms</node>
+                <node x="304.0" y="380.0">sun</node>
+                <node x="225.0" y="76.0">META-INF</node>
+                <node x="0.0" y="456.0">jdk</node>
+                <node x="-24.0" y="85.0">groovyjarjarasm</node>
+                <node x="0.0" y="380.0">java</node>
+                <node x="353.0" y="152.0">groovy</node>
+                <node x="329.0" y="228.0">javax</node>
+                <node x="-167.0" y="14.0">groovyjarjarcommonscli</node>
+                <node x="166.0" y="228.0">javafx</node>
+                <node x="0.0" y="304.0">sunw</node>
+                <node x="270.0" y="0.0">groovyjarjarantlr</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-16.5" y="205.5" />
+              <SelectedNodes>
+                <node>bms</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/bms">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>bms</OriginalElement>
+              <nodes>
+                <node x="7.0" y="81.0">bms.dao</node>
+                <node x="1.0" y="9.0">bms.model</node>
+                <node x="0.0" y="356.0">bms.ui</node>
+                <node x="-175.0" y="274.0">bms.service</node>
+                <node x="170.0" y="280.0">bms..idea</node>
+                <node x="-111.0" y="155.0">bms.Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="bms.dao" target="bms.model">
+                  <point x="0.0" y="-15.5" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-116.0" y="155.5" />
+              <SelectedNodes>
+                <node>bms.model</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/bms.dao">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>bms.dao</OriginalElement>
+              <nodes>
+                <node x="148.0" y="289.0">bms.dao.impl</node>
+                <node x="0.0" y="0.0">bms.dao.DAO</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="bms.dao.impl" target="bms.dao.DAO">
+                  <point x="0.0" y="-15.5" />
+                  <point x="0.0" y="119.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-53.0" y="122.0" />
+              <SelectedNodes>
+                <node>bms.dao.impl</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/bms.dao.impl">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>bms.dao.impl</OriginalElement>
+              <nodes>
+                <node x="748.6467487373741" y="2249.0">bms.service.impl.BookServiceImpl</node>
+                <node x="1123.8134154040406" y="2283.5">bms.service.impl.UserServiceImpl</node>
+                <node x="522.1250000000001" y="1064.5">bms.ui.AddUI</node>
+                <node x="435.0000000000001" y="2157.0">bms.ui.LoginUI</node>
+                <node x="247.5000000000001" y="1087.5">bms.ui.FindUI</node>
+                <node x="556.7500000000001" y="1880.0">bms.service.UserService</node>
+                <node x="404.1250000000001" y="824.0">bms.service.BookService</node>
+                <node x="283.7500000000001" y="1707.0">bms.ui.ListUI</node>
+                <node x="1025.9338068181823" y="0.0">bms.model.WithID</node>
+                <node x="336.4060290404045" y="127.0">bms.model.Book</node>
+                <node x="1151.3134154040406" y="1868.0">bms.dao.impl.UserDAO</node>
+                <node x="836.3134154040406" y="1868.0">bms.dao.impl.BookDAO</node>
+                <node x="1316.5634154040406" y="1202.5">bms.model.User</node>
+                <node x="340.2500000000001" y="2538.0">bms.Main</node>
+                <node x="890.5634154040406" y="1202.5">bms.dao.DAO</node>
+                <node x="10.5" y="1007.0">bms.ui.EditUI</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="bms.ui.ListUI" target="bms.ui.EditUI">
+                  <point x="-84.33333333333326" y="-200.0" />
+                  <point x="325.91666666666686" y="1677.0" />
+                  <point x="64.75" y="1677.0" />
+                  <point x="-54.25" y="315.0" />
+                </edge>
+                <edge source="bms.ui.FindUI" target="bms.model.Book">
+                  <point x="0.0" y="-234.5" />
+                  <point x="356.0000000000001" y="967.0" />
+                  <point x="343.5460858585862" y="967.0" />
+                  <point x="343.5460858585862" y="804.0" />
+                  <point x="426.8151199494955" y="804.0" />
+                  <point x="-20.09090909090901" y="303.5" />
+                </edge>
+                <edge source="bms.ui.EditUI" target="bms.model.Book">
+                  <point x="0.0" y="-315.0" />
+                  <point x="119.0" y="987.0" />
+                  <point x="106.54608585858614" y="987.0" />
+                  <point x="106.54608585858614" y="784.0" />
+                  <point x="386.63330176767727" y="784.0" />
+                  <point x="-60.27272727272725" y="303.5" />
+                </edge>
+                <edge source="bms.ui.LoginUI" target="bms.ui.ListUI">
+                  <point x="-59.75" y="-165.5" />
+                  <point x="494.7500000000001" y="2137.0" />
+                  <point x="473.5000000000001" y="2137.0" />
+                  <point x="63.25" y="200.0" />
+                </edge>
+                <edge source="bms.service.impl.UserServiceImpl" target="bms.dao.impl.UserDAO">
+                  <point x="0.0" y="-39.0" />
+                  <point x="0.0" y="39.0" />
+                </edge>
+                <edge source="bms.ui.ListUI" target="bms.model.Book">
+                  <point x="112.44444444444434" y="-200.0" />
+                  <point x="522.6944444444445" y="1687.0" />
+                  <point x="749.6250000000001" y="1687.0" />
+                  <point x="749.6250000000001" y="774.0" />
+                  <point x="507.17875631313177" y="774.0" />
+                  <point x="60.27272727272725" y="303.5" />
+                </edge>
+                <edge source="bms.service.BookService" target="bms.model.Book">
+                  <point x="0.0" y="-61.5" />
+                  <point x="511.6250000000001" y="804.0" />
+                  <point x="446.9060290404045" y="804.0" />
+                  <point x="0.0" y="303.5" />
+                </edge>
+                <edge source="bms.model.Book" target="bms.model.WithID">
+                  <point x="0.0" y="-303.5" />
+                  <point x="446.9060290404045" y="102.0" />
+                  <point x="1052.7671401515156" y="102.0" />
+                  <point x="-53.666666666666686" y="38.5" />
+                </edge>
+                <edge source="bms.service.impl.BookServiceImpl" target="bms.model.Book">
+                  <point x="0.0" y="-73.5" />
+                  <point x="856.1467487373741" y="2137.0" />
+                  <point x="825.8134154040406" y="2137.0" />
+                  <point x="825.8134154040406" y="764.0" />
+                  <point x="527.269665404041" y="764.0" />
+                  <point x="80.36363636363649" y="303.5" />
+                </edge>
+                <edge source="bms.ui.AddUI" target="bms.model.Book">
+                  <point x="0.0" y="-257.5" />
+                  <point x="630.6250000000001" y="794.0" />
+                  <point x="466.9969381313135" y="794.0" />
+                  <point x="20.09090909090901" y="303.5" />
+                </edge>
+                <edge source="bms.service.impl.UserServiceImpl" target="bms.service.UserService">
+                  <point x="-76.66666666666669" y="-39.0" />
+                  <point x="1162.1467487373739" y="2127.0" />
+                  <point x="729.2500000000001" y="2127.0" />
+                  <point x="57.5" y="27.0" />
+                </edge>
+                <edge source="bms.dao.impl.BookDAO" target="bms.dao.DAO">
+                  <point x="43.75" y="-39.0" />
+                  <point x="967.5634154040406" y="1687.0" />
+                  <point x="992.0634154040406" y="1687.0" />
+                  <point x="-101.5" y="119.5" />
+                </edge>
+                <edge source="bms.service.impl.UserServiceImpl" target="bms.model.User">
+                  <point x="76.66666666666674" y="-39.0" />
+                  <point x="1315.4800820707073" y="2137.0" />
+                  <point x="1476.3134154040406" y="2137.0" />
+                  <point x="53.25" y="119.5" />
+                </edge>
+                <edge source="bms.model.User" target="bms.model.WithID">
+                  <point x="0.0" y="-119.5" />
+                  <point x="1423.0634154040406" y="102.0" />
+                  <point x="1160.1004734848489" y="102.0" />
+                  <point x="53.66666666666663" y="38.5" />
+                </edge>
+                <edge source="bms.ui.EditUI" target="bms.ui.ListUI">
+                  <point x="54.25" y="315.0" />
+                  <point x="173.25" y="1667.0" />
+                  <point x="354.02777777777794" y="1667.0" />
+                  <point x="-56.22222222222217" y="-200.0" />
+                </edge>
+                <edge source="bms.ui.ListUI" target="bms.Main">
+                  <point x="-63.25" y="200.0" />
+                  <point x="347.0000000000001" y="2513.0" />
+                  <point x="395.5000000000001" y="2513.0" />
+                  <point x="-55.25" y="-39.0" />
+                </edge>
+                <edge source="bms.dao.impl.UserDAO" target="bms.dao.DAO">
+                  <point x="-43.75" y="-39.0" />
+                  <point x="101.5" y="119.5" />
+                </edge>
+                <edge source="bms.ui.EditUI" target="bms.service.BookService">
+                  <point x="72.33333333333326" y="-315.0" />
+                  <point x="191.33333333333326" y="977.0" />
+                  <point x="425.6250000000001" y="977.0" />
+                  <point x="-86.0" y="61.5" />
+                </edge>
+                <edge source="bms.ui.ListUI" target="bms.ui.AddUI">
+                  <point x="56.22222222222217" y="-200.0" />
+                  <point x="466.4722222222223" y="1667.0" />
+                  <point x="576.3750000000001" y="1667.0" />
+                  <point x="-54.25" y="257.5" />
+                </edge>
+                <edge source="bms.ui.ListUI" target="bms.service.BookService">
+                  <point x="28.111111111111086" y="-200.0" />
+                  <point x="438.3611111111112" y="1657.0" />
+                  <point x="511.6250000000001" y="1657.0" />
+                  <point x="0.0" y="61.5" />
+                </edge>
+                <edge source="bms.dao.impl.BookDAO" target="bms.model.Book">
+                  <point x="-43.75" y="-39.0" />
+                  <point x="880.0634154040406" y="754.0" />
+                  <point x="547.36057449495" y="754.0" />
+                  <point x="100.4545454545455" y="303.5" />
+                </edge>
+                <edge source="bms.service.impl.BookServiceImpl" target="bms.service.BookService">
+                  <point x="-71.66666666666674" y="-73.5" />
+                  <point x="784.4800820707073" y="2137.0" />
+                  <point x="814.8134154040406" y="2137.0" />
+                  <point x="814.8134154040406" y="977.0" />
+                  <point x="597.6250000000001" y="977.0" />
+                  <point x="86.0" y="61.5" />
+                </edge>
+                <edge source="bms.ui.AddUI" target="bms.service.BookService">
+                  <point x="-72.33333333333326" y="-257.5" />
+                  <point x="558.2916666666669" y="987.0" />
+                  <point x="554.6250000000001" y="987.0" />
+                  <point x="43.0" y="61.5" />
+                </edge>
+                <edge source="bms.ui.FindUI" target="bms.ui.ListUI">
+                  <point x="54.25" y="234.5" />
+                  <point x="0.0" y="-200.0" />
+                </edge>
+                <edge source="bms.ui.LoginUI" target="bms.service.UserService">
+                  <point x="59.75" y="-165.5" />
+                  <point x="-57.5" y="27.0" />
+                </edge>
+                <edge source="bms.dao.DAO" target="bms.model.WithID">
+                  <point x="0.0" y="-119.5" />
+                  <point x="1093.5634154040406" y="102.0" />
+                  <point x="1106.4338068181823" y="102.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="bms.dao.impl.UserDAO" target="bms.model.User">
+                  <point x="43.75" y="-39.0" />
+                  <point x="1282.5634154040406" y="1687.0" />
+                  <point x="1369.8134154040406" y="1687.0" />
+                  <point x="-53.25" y="119.5" />
+                </edge>
+                <edge source="bms.ui.ListUI" target="bms.ui.FindUI">
+                  <point x="-28.111111111111086" y="-200.0" />
+                  <point x="382.138888888889" y="1657.0" />
+                  <point x="301.7500000000001" y="1657.0" />
+                  <point x="-54.25" y="234.5" />
+                </edge>
+                <edge source="bms.ui.AddUI" target="bms.ui.ListUI">
+                  <point x="54.25" y="257.5" />
+                  <point x="684.8750000000001" y="1677.0" />
+                  <point x="494.58333333333337" y="1677.0" />
+                  <point x="84.33333333333326" y="-200.0" />
+                </edge>
+                <edge source="bms.service.impl.BookServiceImpl" target="bms.dao.impl.BookDAO">
+                  <point x="71.66666666666674" y="-73.5" />
+                  <point x="927.8134154040408" y="2137.0" />
+                  <point x="923.8134154040406" y="2137.0" />
+                  <point x="0.0" y="39.0" />
+                </edge>
+                <edge source="bms.Main" target="bms.ui.LoginUI">
+                  <point x="55.25" y="-39.0" />
+                  <point x="506.0000000000001" y="2513.0" />
+                  <point x="554.5000000000001" y="2513.0" />
+                  <point x="0.0" y="165.5" />
+                </edge>
+                <edge source="bms.ui.FindUI" target="bms.service.BookService">
+                  <point x="72.33333333333326" y="-234.5" />
+                  <point x="428.33333333333337" y="987.0" />
+                  <point x="468.6250000000001" y="987.0" />
+                  <point x="-43.0" y="61.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1" x="774.1818181818181" y="2130.181818181818" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bms/dao/DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bms/ui/AddUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bms/model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bms/model/WithID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/bms/dao/DAO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="243" />
+    <option name="y" value="55" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bms" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books-management-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books-management-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546950917416" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="256ed91b-9b6d-4c43-8219-ba04627daf2e" name="Default Changelist" comment="" />
+      <created>1546867802323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546867802323</updated>
+      <workItem from="1546867808722" duration="17202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/bms..idea">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms..idea</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="496.0" y="278.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/weinan/Desktop/books-management-system/src/main/java/bms/dao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/bms/dao</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/weinan/Desktop/books-management-system/src/main/java/bms/ui">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/bms/ui</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bms.Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms.Main</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">bms.Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-145.5" y="1.0" />
+          <SelectedNodes>
+            <node>bms.Main</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bms.ui">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms.ui</OriginalElement>
+          <nodes>
+            <node x="262.0" y="0.0">bms.ui.AddUI</node>
+            <node x="0.0" y="675.0">bms.ui.LoginUI</node>
+            <node x="524.0" y="0.0">bms.ui.FindUI</node>
+            <node x="0.0" y="0.0">bms.ui.EditUI</node>
+            <node x="786.0" y="0.0">bms.ui.ListUI</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9419103313840155" x="247.71192052980132" y="234.8013245033113" />
+          <SelectedNodes>
+            <node>bms.ui.AddUI</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="159.0" y="304.0">com</node>
+            <node x="0.0" y="152.0">netscape</node>
+            <node x="0.0" y="228.0">oracle</node>
+            <node x="153.0" y="380.0">org</node>
+            <node x="182.0" y="152.0">classes</node>
+            <node x="314.0" y="304.0">bms</node>
+            <node x="304.0" y="380.0">sun</node>
+            <node x="225.0" y="76.0">META-INF</node>
+            <node x="0.0" y="456.0">jdk</node>
+            <node x="-24.0" y="85.0">groovyjarjarasm</node>
+            <node x="0.0" y="380.0">java</node>
+            <node x="353.0" y="152.0">groovy</node>
+            <node x="329.0" y="228.0">javax</node>
+            <node x="-167.0" y="14.0">groovyjarjarcommonscli</node>
+            <node x="166.0" y="228.0">javafx</node>
+            <node x="0.0" y="304.0">sunw</node>
+            <node x="270.0" y="0.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-16.5" y="205.5" />
+          <SelectedNodes>
+            <node>bms</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bms">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms</OriginalElement>
+          <nodes>
+            <node x="7.0" y="81.0">bms.dao</node>
+            <node x="1.0" y="9.0">bms.model</node>
+            <node x="0.0" y="356.0">bms.ui</node>
+            <node x="-175.0" y="274.0">bms.service</node>
+            <node x="170.0" y="280.0">bms..idea</node>
+            <node x="-111.0" y="155.0">bms.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="bms.dao" target="bms.model">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-116.0" y="155.5" />
+          <SelectedNodes>
+            <node>bms.model</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bms.dao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms.dao</OriginalElement>
+          <nodes>
+            <node x="148.0" y="289.0">bms.dao.impl</node>
+            <node x="0.0" y="0.0">bms.dao.DAO</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="bms.dao.impl" target="bms.dao.DAO">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="119.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-53.0" y="122.0" />
+          <SelectedNodes>
+            <node>bms.dao.impl</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/model/WithID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/bms.dao.impl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>bms.dao.impl</OriginalElement>
+          <nodes>
+            <node x="748.6467487373741" y="2249.0">bms.service.impl.BookServiceImpl</node>
+            <node x="1123.8134154040406" y="2283.5">bms.service.impl.UserServiceImpl</node>
+            <node x="522.1250000000001" y="1064.5">bms.ui.AddUI</node>
+            <node x="435.0000000000001" y="2157.0">bms.ui.LoginUI</node>
+            <node x="247.5000000000001" y="1087.5">bms.ui.FindUI</node>
+            <node x="556.7500000000001" y="1880.0">bms.service.UserService</node>
+            <node x="404.1250000000001" y="824.0">bms.service.BookService</node>
+            <node x="283.7500000000001" y="1707.0">bms.ui.ListUI</node>
+            <node x="1025.9338068181823" y="0.0">bms.model.WithID</node>
+            <node x="336.4060290404045" y="127.0">bms.model.Book</node>
+            <node x="1151.3134154040406" y="1868.0">bms.dao.impl.UserDAO</node>
+            <node x="836.3134154040406" y="1868.0">bms.dao.impl.BookDAO</node>
+            <node x="1316.5634154040406" y="1202.5">bms.model.User</node>
+            <node x="340.2500000000001" y="2538.0">bms.Main</node>
+            <node x="890.5634154040406" y="1202.5">bms.dao.DAO</node>
+            <node x="10.5" y="1007.0">bms.ui.EditUI</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="bms.ui.ListUI" target="bms.ui.EditUI">
+              <point x="-84.33333333333326" y="-200.0" />
+              <point x="325.91666666666686" y="1677.0" />
+              <point x="64.75" y="1677.0" />
+              <point x="-54.25" y="315.0" />
+            </edge>
+            <edge source="bms.ui.FindUI" target="bms.model.Book">
+              <point x="0.0" y="-234.5" />
+              <point x="356.0000000000001" y="967.0" />
+              <point x="343.5460858585862" y="967.0" />
+              <point x="343.5460858585862" y="804.0" />
+              <point x="426.8151199494955" y="804.0" />
+              <point x="-20.09090909090901" y="303.5" />
+            </edge>
+            <edge source="bms.ui.EditUI" target="bms.model.Book">
+              <point x="0.0" y="-315.0" />
+              <point x="119.0" y="987.0" />
+              <point x="106.54608585858614" y="987.0" />
+              <point x="106.54608585858614" y="784.0" />
+              <point x="386.63330176767727" y="784.0" />
+              <point x="-60.27272727272725" y="303.5" />
+            </edge>
+            <edge source="bms.ui.LoginUI" target="bms.ui.ListUI">
+              <point x="-59.75" y="-165.5" />
+              <point x="494.7500000000001" y="2137.0" />
+              <point x="473.5000000000001" y="2137.0" />
+              <point x="63.25" y="200.0" />
+            </edge>
+            <edge source="bms.service.impl.UserServiceImpl" target="bms.dao.impl.UserDAO">
+              <point x="0.0" y="-39.0" />
+              <point x="0.0" y="39.0" />
+            </edge>
+            <edge source="bms.ui.ListUI" target="bms.model.Book">
+              <point x="112.44444444444434" y="-200.0" />
+              <point x="522.6944444444445" y="1687.0" />
+              <point x="749.6250000000001" y="1687.0" />
+              <point x="749.6250000000001" y="774.0" />
+              <point x="507.17875631313177" y="774.0" />
+              <point x="60.27272727272725" y="303.5" />
+            </edge>
+            <edge source="bms.service.BookService" target="bms.model.Book">
+              <point x="0.0" y="-61.5" />
+              <point x="511.6250000000001" y="804.0" />
+              <point x="446.9060290404045" y="804.0" />
+              <point x="0.0" y="303.5" />
+            </edge>
+            <edge source="bms.model.Book" target="bms.model.WithID">
+              <point x="0.0" y="-303.5" />
+              <point x="446.9060290404045" y="102.0" />
+              <point x="1052.7671401515156" y="102.0" />
+              <point x="-53.666666666666686" y="38.5" />
+            </edge>
+            <edge source="bms.service.impl.BookServiceImpl" target="bms.model.Book">
+              <point x="0.0" y="-73.5" />
+              <point x="856.1467487373741" y="2137.0" />
+              <point x="825.8134154040406" y="2137.0" />
+              <point x="825.8134154040406" y="764.0" />
+              <point x="527.269665404041" y="764.0" />
+              <point x="80.36363636363649" y="303.5" />
+            </edge>
+            <edge source="bms.ui.AddUI" target="bms.model.Book">
+              <point x="0.0" y="-257.5" />
+              <point x="630.6250000000001" y="794.0" />
+              <point x="466.9969381313135" y="794.0" />
+              <point x="20.09090909090901" y="303.5" />
+            </edge>
+            <edge source="bms.service.impl.UserServiceImpl" target="bms.service.UserService">
+              <point x="-76.66666666666669" y="-39.0" />
+              <point x="1162.1467487373739" y="2127.0" />
+              <point x="729.2500000000001" y="2127.0" />
+              <point x="57.5" y="27.0" />
+            </edge>
+            <edge source="bms.dao.impl.BookDAO" target="bms.dao.DAO">
+              <point x="43.75" y="-39.0" />
+              <point x="967.5634154040406" y="1687.0" />
+              <point x="992.0634154040406" y="1687.0" />
+              <point x="-101.5" y="119.5" />
+            </edge>
+            <edge source="bms.service.impl.UserServiceImpl" target="bms.model.User">
+              <point x="76.66666666666674" y="-39.0" />
+              <point x="1315.4800820707073" y="2137.0" />
+              <point x="1476.3134154040406" y="2137.0" />
+              <point x="53.25" y="119.5" />
+            </edge>
+            <edge source="bms.model.User" target="bms.model.WithID">
+              <point x="0.0" y="-119.5" />
+              <point x="1423.0634154040406" y="102.0" />
+              <point x="1160.1004734848489" y="102.0" />
+              <point x="53.66666666666663" y="38.5" />
+            </edge>
+            <edge source="bms.ui.EditUI" target="bms.ui.ListUI">
+              <point x="54.25" y="315.0" />
+              <point x="173.25" y="1667.0" />
+              <point x="354.02777777777794" y="1667.0" />
+              <point x="-56.22222222222217" y="-200.0" />
+            </edge>
+            <edge source="bms.ui.ListUI" target="bms.Main">
+              <point x="-63.25" y="200.0" />
+              <point x="347.0000000000001" y="2513.0" />
+              <point x="395.5000000000001" y="2513.0" />
+              <point x="-55.25" y="-39.0" />
+            </edge>
+            <edge source="bms.dao.impl.UserDAO" target="bms.dao.DAO">
+              <point x="-43.75" y="-39.0" />
+              <point x="101.5" y="119.5" />
+            </edge>
+            <edge source="bms.ui.EditUI" target="bms.service.BookService">
+              <point x="72.33333333333326" y="-315.0" />
+              <point x="191.33333333333326" y="977.0" />
+              <point x="425.6250000000001" y="977.0" />
+              <point x="-86.0" y="61.5" />
+            </edge>
+            <edge source="bms.ui.ListUI" target="bms.ui.AddUI">
+              <point x="56.22222222222217" y="-200.0" />
+              <point x="466.4722222222223" y="1667.0" />
+              <point x="576.3750000000001" y="1667.0" />
+              <point x="-54.25" y="257.5" />
+            </edge>
+            <edge source="bms.ui.ListUI" target="bms.service.BookService">
+              <point x="28.111111111111086" y="-200.0" />
+              <point x="438.3611111111112" y="1657.0" />
+              <point x="511.6250000000001" y="1657.0" />
+              <point x="0.0" y="61.5" />
+            </edge>
+            <edge source="bms.dao.impl.BookDAO" target="bms.model.Book">
+              <point x="-43.75" y="-39.0" />
+              <point x="880.0634154040406" y="754.0" />
+              <point x="547.36057449495" y="754.0" />
+              <point x="100.4545454545455" y="303.5" />
+            </edge>
+            <edge source="bms.service.impl.BookServiceImpl" target="bms.service.BookService">
+              <point x="-71.66666666666674" y="-73.5" />
+              <point x="784.4800820707073" y="2137.0" />
+              <point x="814.8134154040406" y="2137.0" />
+              <point x="814.8134154040406" y="977.0" />
+              <point x="597.6250000000001" y="977.0" />
+              <point x="86.0" y="61.5" />
+            </edge>
+            <edge source="bms.ui.AddUI" target="bms.service.BookService">
+              <point x="-72.33333333333326" y="-257.5" />
+              <point x="558.2916666666669" y="987.0" />
+              <point x="554.6250000000001" y="987.0" />
+              <point x="43.0" y="61.5" />
+            </edge>
+            <edge source="bms.ui.FindUI" target="bms.ui.ListUI">
+              <point x="54.25" y="234.5" />
+              <point x="0.0" y="-200.0" />
+            </edge>
+            <edge source="bms.ui.LoginUI" target="bms.service.UserService">
+              <point x="59.75" y="-165.5" />
+              <point x="-57.5" y="27.0" />
+            </edge>
+            <edge source="bms.dao.DAO" target="bms.model.WithID">
+              <point x="0.0" y="-119.5" />
+              <point x="1093.5634154040406" y="102.0" />
+              <point x="1106.4338068181823" y="102.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="bms.dao.impl.UserDAO" target="bms.model.User">
+              <point x="43.75" y="-39.0" />
+              <point x="1282.5634154040406" y="1687.0" />
+              <point x="1369.8134154040406" y="1687.0" />
+              <point x="-53.25" y="119.5" />
+            </edge>
+            <edge source="bms.ui.ListUI" target="bms.ui.FindUI">
+              <point x="-28.111111111111086" y="-200.0" />
+              <point x="382.138888888889" y="1657.0" />
+              <point x="301.7500000000001" y="1657.0" />
+              <point x="-54.25" y="234.5" />
+            </edge>
+            <edge source="bms.ui.AddUI" target="bms.ui.ListUI">
+              <point x="54.25" y="257.5" />
+              <point x="684.8750000000001" y="1677.0" />
+              <point x="494.58333333333337" y="1677.0" />
+              <point x="84.33333333333326" y="-200.0" />
+            </edge>
+            <edge source="bms.service.impl.BookServiceImpl" target="bms.dao.impl.BookDAO">
+              <point x="71.66666666666674" y="-73.5" />
+              <point x="927.8134154040408" y="2137.0" />
+              <point x="923.8134154040406" y="2137.0" />
+              <point x="0.0" y="39.0" />
+            </edge>
+            <edge source="bms.Main" target="bms.ui.LoginUI">
+              <point x="55.25" y="-39.0" />
+              <point x="506.0000000000001" y="2513.0" />
+              <point x="554.5000000000001" y="2513.0" />
+              <point x="0.0" y="165.5" />
+            </edge>
+            <edge source="bms.ui.FindUI" target="bms.service.BookService">
+              <point x="72.33333333333326" y="-234.5" />
+              <point x="428.33333333333337" y="987.0" />
+              <point x="468.6250000000001" y="987.0" />
+              <point x="-43.0" y="61.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="774.1818181818181" y="2130.181818181818" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/ui/AddUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bms/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>books-management-system</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
