@@ -1,7 +1,7 @@
 # BMS-Koyanagi
-OOD course design(2019.1):Book Management System
+OOD course design(2018.9 ~ 2019.1): Book Management System
 
-Tutor: Prof.Koyanagi Keiichi
+By Prof.KOYANAGI Keiichi
 
 Final score: A
 ## Introduction
